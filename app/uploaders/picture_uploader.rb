@@ -6,7 +6,6 @@ process resize_to_limit: [300, 300]
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  storage :file
   # storage :fog
   if Rails.env.production?
     storage :fog
