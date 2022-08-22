@@ -24,6 +24,9 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'stripe'
+gem 'aws-sdk'
+gem 'figaro'
+gem 'dotenv-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

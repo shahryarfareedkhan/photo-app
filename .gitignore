@@ -31,7 +31,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
+credentials.yml.enc
+/config/application.yml
+.env
 /public/packs
 /public/packs-test
 /node_modules
